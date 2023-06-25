@@ -1,0 +1,13 @@
+# Activation de la réécriture d'URL
+RewriteEngine On
+
+
+# Condition qui vérifie si l'URL ne correspond pas 
+# à un fichier ou un dossier physique
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Redirection de toutes les autres URLs
+# vers index.php avec un paramètre "url"
+# qui contient l'URL demandée par le visiteur.
+RewriteRule ^(.*)$ index.php?url=$1 [QSA]

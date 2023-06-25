@@ -1,0 +1,76 @@
+.menu{
+    width: 50%;
+    margin: auto;
+    display: block;
+    color: rgb(168, 23, 23);
+    font-size: 18px;
+    font:2em "Open Sans",SWGothi;
+    
+    text-decoration: unset;
+}
+.text-center{
+    text-align: center;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul li a{
+    display: block;
+    color: rgb(168, 23, 23);
+    text-decoration: unset;
+}
+
+.menu ul li a:hover{
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+body 
+{
+    background-image: url("https://i.ytimg.com/vi/LvGvlpU2o2w/maxresdefault.jpg");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    left: 250px;
+    height: 0;
+    overflow: hidden;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container-form{
+    width: 50%;
+    margin: auto;
+    background: #aaa;
+}

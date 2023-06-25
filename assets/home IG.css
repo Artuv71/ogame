@@ -1,0 +1,141 @@
+.menu{
+    width: 50%;
+    margin: auto;
+    display: block;
+    color: rgb(168, 23, 23);
+    font-size: 18px;
+    font:2em "Open Sans",SWGothi;
+    
+    text-decoration: unset;
+}
+.text-center{
+    text-align: center;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul li a{
+    display: block;
+    color: rgb(168, 23, 23);
+    text-decoration: unset;
+}
+
+.menu ul li a:hover{
+    color: blue;
+}
+body 
+{
+    background-color: #000000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://i.ytimg.com/vi/LvGvlpU2o2w/maxresdefault.jpg");
+    background-size: cover;
+    color: #ffffff;
+    padding: 1em;margin: 0;
+    padding: 0;
+
+}
+
+
+
+.SubMenu {
+  position: absolute;
+  background-position-X: -10px;
+  background-image: url('/submenu.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menuIG{
+    margin: auto;
+}
+.menuIG ul{
+    transform: translateY(0px);
+    transform: translateX(-7px);
+    justify-content: space-between;
+    font:2em "Open Sans",SWGothi;
+    list-style-type: none;
+    
+}
+
+.menuIG ul li a{
+    display: inside;
+    color: rgb(168, 23, 23);
+    text-decoration: unset;
+    
+}
+.menuIG ul li a:hover{
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+.ressources{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background: rgb(201, 189, 155);
+    background-position-Y: translateY(-10%);
+    justify-content: space-around;
+
+    width: 100%;
+    text-align:justify;
+
+    color: rgb(168, 23, 23);
+    font:1.5em "Open Sans",SWGothi;
+    text-decoration: unset;
+}
+.ressources li{
+    display: flex;
+    justify-content: justify;
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-form{
+    width: 65%;
+    margin: auto;
+    background: rgb(201, 189, 155);
+    /*display: table;*/
+    word-wrap: break-word;
+    background-image: url(https://64.media.tumblr.com/9eb8547c405067c2b911435eec882065/tumblr_ozhfc1W2sr1sn3ne4o1_640.jpg);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    color: rgb(168, 23, 23);
+    font:1.5em "Open Sans",SWGothi;
+    text-decoration: unset;
+}
+
+form{
+    width: 60%;
+    margin: auto;
+    padding: 100px 50px;
+    display: inside;
+    flex-direction: column;
+}
+
